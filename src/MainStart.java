@@ -25,8 +25,8 @@ public class MainStart
         double Mwynagrodzenie = calculation.getMWynagrodzenie();
 
         System.out.println("Vat do zapłaty: " + VatforPey
-                            +"\n" + "Vat plus kwota netto: " + VatPlusPrice
-                            + "\n" + "Po odliczeniu ZUS: "+ POZ
+                            +"\n" + "Vat Plus Kwota Netto: " + VatPlusPrice
+                            + "\n" + "Po Odliczeniu ZUS: "+ POZ
                             + "\n" + "Podatek Dochodowy: " + PD
                             + "\n" + "Wynagrodzenie: " + Mwynagrodzenie);
     }
